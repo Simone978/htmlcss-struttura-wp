@@ -157,6 +157,31 @@ main:after{
 /* sezione footer */
 
 .piepagina{
-  height: 100px;
-  background-color: lightgreen;
+  position: relative;
+  height: 150px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.credential{
+  width: 98%;
+  margin: auto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
+.social{
+  height: 140px;
+  line-height: 140px;
+  font-size: 50px;
+  color: lightgrey;
+}
+
+.social i{
+  margin-left: 22%;
 }
