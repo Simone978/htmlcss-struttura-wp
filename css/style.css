@@ -17,12 +17,16 @@ body{
 /* sezione testata */
 
 header{
+  height: 550px;
+}
+
+.header-top{
   position: relative;
-  height: 450px;
+  height: 500px;
   background-color: #ffffff;
 }
 
-header .logo{
+.header-top .logo{
   position: absolute;
   height: 430px;
   width: 95%;
@@ -36,25 +40,33 @@ header .logo{
 
 }
 
-header .title h2{
+.header-top .title h2{
   font-size: 90px;
   border: 2px solid #ffffff;
   margin-bottom: 50px;
-  text-transform: uppercase;
 }
 
-header .title h3{
+.header-top .title h3{
   font-size: 25px;
+}
+
+.uppercase{
   text-transform: uppercase;
 }
 
-header .title{
+.header-top .title{
   position: absolute;
   color: #ffffff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.header-bottom .menu{
+  height: 50px;
+  background-color: grey;
+  z-index: 1;
 }
 
 /* sezione main */
@@ -66,10 +78,6 @@ main:after{
   display: table;
   clear: both;
 }
-
-/* .background-element{
-
-} */
 
 .formatting{
   background: #ffffff;
@@ -84,10 +92,6 @@ main:after{
 .icon {
   color: #FAA501;
 }
-
-/* .padding-element{
-
-} */
 
 /* colonna sinistra */
 .float-left{
