@@ -17,8 +17,23 @@ body{
 /* sezione testata */
 
 header{
+  position: relative;
   height: 300px;
-  background: yellow;
+  background-color: #ffffff;
+}
+
+header .logo{
+  position: absolute;
+  height: 250px;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  background-image: url('../img/default-header.jpg');
+  background-size: cover;
+  background-position: center;
+
 }
 
 /* sezione main */
