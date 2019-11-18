@@ -65,8 +65,33 @@ header{
 
 .header-bottom .menu{
   height: 50px;
-  background-color: grey;
-  z-index: 1;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* sezione menu */
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  /* border-left: 1px solid black; */
+  padding: 0 15px;
+}
+
+.menu li:first-child{
+  border-left: none;
+}
+
+.menu li:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 /* sezione main */
