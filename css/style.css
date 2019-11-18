@@ -12,46 +12,64 @@ body{
   width: 80%;
   margin: auto;
   margin-top: 100px;
-  background: grey;
 }
 
-/* elemento testata */
+/* sezione testata */
 
 header{
   height: 300px;
   background: yellow;
 }
 
-/* elemento main */
-
+/* sezione main */
+main{
+  margin: 2% 0;
+}
 main:after{
   content: '';
   display: table;
   clear: both;
+}
+
+/* .background-element{
+
+} */
+
+.formatting{
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
 
 }
 
+/* .padding-element{
+
+} */
+
+/* colonna sinistra */
 .float-left{
   float: left;
 }
 
 .col-left{
-  width: 25%;
-  background: red;
-  height: 300px;
+  width: 26%;
 }
+
+/* colonna centro */
 
 .col-center{
-  width: 40%;
-  background: blue;
-  height: 50px;
-  margin: 0 5%;
+  width: 42%;
+  margin: 0 3%;
 }
 
+/* colonna destra */
+
 .col-right{
-  width: 25%;
-  background: orange;
-  height: 50px;
+  width: 26%;
+}
+
+.col-right .element{
+  margin-bottom: 15px;
 }
 
 /* sezione footer */
