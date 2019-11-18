@@ -25,7 +25,6 @@ header{
   height: 500px;
   background-color: #ffffff;
 }
-
 .header-top .logo{
   position: absolute;
   height: 430px;
@@ -37,23 +36,15 @@ header{
   background-image: url('../img/default-header.jpg');
   background-size: cover;
   background-position: center;
-
 }
-
 .header-top .title h2{
   font-size: 250%;
   border: 2px solid #ffffff;
   margin-bottom: 50px;
 }
-
 .header-top .title h3{
   font-size: 150%;
 }
-
-.uppercase{
-  text-transform: uppercase;
-}
-
 .header-top .title{
   position: absolute;
   color: #ffffff;
@@ -61,6 +52,10 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 .header-bottom .menu{
@@ -75,14 +70,11 @@ header{
 .menu li{
   display: inline-block;
   list-style: none;
-  /* border-left: 1px solid black; */
   padding: 0 15px;
 }
-
 .menu li:first-child{
   border-left: none;
 }
-
 .menu li:hover{
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -95,6 +87,7 @@ header{
 }
 
 /* sezione main */
+
 main{
   margin: 2% 0;
 }
@@ -109,7 +102,6 @@ main:after{
   border-radius: 5px;
   padding: 10px;
 }
-
 .formatting h2{
   margin-bottom: 25px;
 }
@@ -129,7 +121,6 @@ main:after{
   border-radius: 5px;
   padding: 3px;
 }
-
 .col-left li{
   color: green;
   font-weight: bold;
@@ -149,7 +140,6 @@ main:after{
 .col-right{
   width: 24%;
 }
-
 .col-right .element{
   margin-bottom: 15px;
 }
@@ -181,7 +171,6 @@ main:after{
   font-size: 50px;
   color: lightgrey;
 }
-
 .social i{
   margin-left: 22%;
 }
