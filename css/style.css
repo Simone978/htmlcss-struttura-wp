@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
   margin-top: 100px;
 }
@@ -39,7 +39,14 @@ main:after{
   background: #ffffff;
   border-radius: 5px;
   padding: 10px;
+}
 
+.formatting h2{
+  margin-bottom: 25px;
+}
+
+.icon {
+  color: #FAA501;
 }
 
 /* .padding-element{
@@ -52,20 +59,30 @@ main:after{
 }
 
 .col-left{
-  width: 26%;
+  width: 24%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.col-left li{
+  color: green;
+  font-weight: bold;
+  list-style: none;
+  padding-bottom: 3px;
 }
 
 /* colonna centro */
 
 .col-center{
-  width: 42%;
+  width: 46%;
   margin: 0 3%;
 }
 
 /* colonna destra */
 
 .col-right{
-  width: 26%;
+  width: 24%;
 }
 
 .col-right .element{
