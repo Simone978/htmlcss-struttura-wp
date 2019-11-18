@@ -41,13 +41,13 @@ header{
 }
 
 .header-top .title h2{
-  font-size: 90px;
+  font-size: 250%;
   border: 2px solid #ffffff;
   margin-bottom: 50px;
 }
 
 .header-top .title h3{
-  font-size: 25px;
+  font-size: 150%;
 }
 
 .uppercase{
